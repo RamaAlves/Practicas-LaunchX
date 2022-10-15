@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empalentitas</title>
+</head>
+<body>
+    <header>
+        <h1>Empalentitas</h1>
+    </header>
+    <img src="./assets/Empalentitas.jpg" alt="Logo de Empalentitas">
+    <h2>Empanadas calentitas</h2>
+    <p>Tu rotiseria de confianza desde 2022</p>
+    <hr><hr>
+    <section>
+        <h2>Menu</h2>
+        <h3>Empanadas</h3>
+        <p>Lleva la docena con un 10% de descuento</p>
+        <ul>
+            <li>
+                Empanadas de carne -------------- $80
+            </li>
+            <li>
+                Empanadas de pollo -------------- $80
+            </li>
+            <li>
+                Empanadas de verdura ------------ $80
+            </li>
+        </ul>
+        <hr>
+        <h3>Nuestras creaciones</h3>
+        <p>$90 la unidad. 15% de descuento en la docena</p>
+        <p>Probalas te sorprenderan!</p>
+        <dl>
+            <dt>De mis pagos:</dt>
+            <dd>Empanadas de carne con pasas de uva y queso</dd>
+            <dt>Casi humita:</dt>
+            <dd>Empanadas de humita con reogado de verduras</dd>
+        </dl>
+        <hr>
+        <h3>Discos</h3>
+        <p>$150 la unidad</p>
+        <ul>
+            <li>
+                Humita
+            </li>
+            <li>
+                Queso y cebolla
+            </li>
+        </ul>
+    </section>
+    <hr><hr>
+    <section>
+        <h2>Ubicacion</h2>
+        <h3>sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/3ocUmrZemzYoLrGz5" target="_blank">Ayacucho 65</a></td>
+                <td>L - D 24hs</td>
+            </tr>
+            <tr>
+                <td>El barrio</td>
+                <td><a href="https://goo.gl/maps/avhj96uaBcdBHC37A" target="_blank">Mz 11 Pc 24 Barrio Mujeres Arg</a></td>
+                <td>Mar-D 20pm a 1am</td>
+            </tr>
+        </table>
+    </section>
+    <hr><hr>
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedido aquí</h3>
+        <form action="">
+            <p>Selecciona la sucursal:</p>
+            <select name="sucursales" id="sucursales">
+                <option value="Centro">Centro</option>
+                <option value="El Barrio">El Barrio</option>
+            </select>
+            <p>Que variedades quieres?</p>
+            <input type="checkbox" id="carne" name="carne" value="Carne">
+            <label for="carne">Carne</label>
+            <input type="number" id="carneNumber" name="carneNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="pollo" name="pollo" value="Pollo">
+            <label for="pollo">Pollo</label>
+            <input type="number" id="polloNumber" name="polloNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="verdura" name="verdura" value="Verdura">
+            <label for="verdura">Verdura</label>
+            <input type="number" id="verduraNumber" name="verduraNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="deMisPagos" name="deMisPagos" value="DeMisPagos">
+            <label for="deMisPagos">De Mis Pagos</label>
+            <input type="number" id="deMisPagosNumber" name="deMisPagosNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="casiHumita" name="casiHumita" value="CasiHumita">
+            <label for="casiHumita">Casi Humita</label>
+            <input type="number" id="casiHumitaNumber" name="casiHumitaNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="discoHumita" name="discoHumita" value="DiscoHumita">
+            <label for="discoHumita">Disco humita</label>
+            <input type="number" id="discoHumitaaNumber" name="discoHumitaNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="discoQuesoCebolla" name="discoQuesoCebolla" value="DiscoQuesoCebolla">
+            <label for="discoQuesoCebolla">Disco queso y cebolla</label>
+            <input type="number" id="discoQuesoCebollaNumber" name="discoQuesoCebollaNumber" placeholder="Cuantos?">
+            <br><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="como te llamas?">
+            <br><br>
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono" placeholder="dejanos tu telefono">
+            <br><br>
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Cual es tu direccion?">
+            <br><br>
+            <button type="submit">Enviar pedido</button>
+            <br><br>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
