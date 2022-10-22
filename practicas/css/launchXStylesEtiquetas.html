@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Prueba CSS</title>
+    <style>
+        /*Cascade Style Sheet  --> CSS*/
+        *{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #dedede;
+        }
+        p{
+            color:#ff0000;/* color red */
+            text-align: center;
+        }
+        #titulo{
+            color: rgb(200,150,220);
+            text-align: right;
+        }
+        .izquierda{
+            color:green
+        }
+        p.izquierda{
+            text-decoration: underline;
+            text-align: left;
+        }
+        .contraste{
+            background-color:black;
+        }
+        h1,h2,h3{
+            font-weight:bold;
+        }
+        .contraste, .izquierda{
+            color: aquamarine;
+        }
+        /* comentario CSS */
+    </style>
+</head>
+<body>
+    <h1>titulo simple</h1>
+    <h2 id="titulo" class="izquierda">header con id titulo</h2>
+    <p>parrafo simple</p>
+
+    <h3 class="izquierda">titulo prueba clase header 3</h3>
+    <p class="izquierda">prueba clase parrafo</p>
+    <h3 class="izquierda contraste">prueba multiples clases</h3>
+</body>
+</html>

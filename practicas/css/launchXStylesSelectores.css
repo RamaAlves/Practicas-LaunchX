@@ -1,0 +1,27 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dedede;
+}
+p{
+    color:#ff0000;/* color red */
+    text-align: center;
+    font-size:20px;
+}
+.colorRojo{
+    color:red;
+}
+.colorRGB{
+    color: rgb(93,113,218)
+}
+.colorRGBA{
+    color:rgba(93,217,93,0.5)
+}
+.colorHEX{
+    color:#EE43E3;
+}
+.colorHSL{
+    color:hsl(30,68%,31%)
+}

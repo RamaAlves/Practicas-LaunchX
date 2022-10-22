@@ -1,0 +1,47 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    height: 500px;
+}
+div{
+    height: 400px;
+}
+.fondoColor{
+    background-color:#0f6666;
+}
+.fondoOpacidad{
+    background-color:#5d0c0c;
+    opacity:0.6;
+}
+.fondoImagen{
+    background-image: url(./images/fondo1.jpg);
+    background-size: contain;
+}
+.fondoRepeatX{
+    background-image: url(./images/fondo2.jpg);
+    background-repeat: repeat-x;
+    background-size:200px;
+}
+.fondoRepeatY{
+    background-image: url(./images/fondo1.jpg);
+    background-repeat: repeat-y;
+    background-size:200px;
+}
+.fondoNoRepeat{
+    background-image: url(./images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+.fondoPosicion{
+    background-image: url(./images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+.fondoCompleto{
+    background-image: url(./images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
