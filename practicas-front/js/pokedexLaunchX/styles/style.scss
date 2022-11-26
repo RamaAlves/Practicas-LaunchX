@@ -1,0 +1,95 @@
+@import "pageLeft";
+@import "pageRight";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    body{
+        .pokedex{
+            position: relative;
+            display: flex;
+/*             background-color: rebeccapurple; */
+            width: fit-content;
+            margin: 60px auto;
+            justify-content: space-evenly;
+            gap: 0.5px;
+
+            &:before{
+                position:absolute;
+                content: "";
+                width: 40px;
+                height: 40px;
+                top:10px;
+                left: 30px;
+                border-radius: 50%;
+                background-color: #cfcfcf;
+                border: 2px solid black;
+            }
+            //34c6da
+            &:after{
+                position:absolute;
+                content: "";
+                width: 25px;
+                height: 25px;
+                top:18px;
+                left: 38px;
+                border-radius: 50%;
+                background-color: #27a2b3;
+                border: 2px solid black;
+            }
+            .container-leds{
+                position:absolute;
+                display: flex;
+                left: 85px;
+                top:12px;
+                gap: 8px;
+            }
+            .circle-led{
+                width: 10px;
+                height: 10px;
+                border:2px solid black;
+                border-radius: 50%;
+            }
+            .circle-led:nth-child(1){
+                background-color: #ff0000;
+            }
+            .circle-led:nth-child(2){
+                background-color: #f7e600;
+            }
+            .circle-led:nth-child(3){
+                background-color: #2de707;
+            }
+            .container-color{
+                background-color: red;
+                width: fit-content;
+                padding: 20px;
+                padding-top: 30px;
+
+                .background{
+                    position:absolute;
+                    background-color: #bb0202;
+                    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%, 32% 10%, 60% 0);
+                    width: 350px;
+                    height: 420px;
+                    left: 0;
+                    bottom: 0;
+                }
+            }
+            .divisor-pages{
+                position:absolute;
+                width: 20px;
+                height: 420px;
+                left: 320px;
+                top:30px;
+                border: 1.5px solid black;
+                border-radius: 4px;
+                background-color: #bb0202;
+                box-shadow: 0px 0px 5px #9e0303;
+            }
+        }
+    }
+}

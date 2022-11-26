@@ -1,0 +1,1 @@
+"tomar 5 notas del alumno entre 0 y 10, calcular el promedio y mostrar la nota más alta, nota media y nota menor"
